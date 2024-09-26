@@ -239,22 +239,22 @@
         "author": "Mark Twain",
         "publication_year": 1884,
         "genre": [
-          "Adventure",
-          "Satire"
+            "Adventure",
+            "Satire"
         ],
         "description": "A satirical novel following Huck Finn's journey down the Mississippi River.",
         "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-      },
-      {
+    },
+    {
         "id": 21,
         "title": "The Iliad",
         "author": "Homer",
         "publication_year": "8th century BCE",
         "genre": [
-          "Epic",
-          "Mythology"
+            "Epic",
+            "Mythology"
         ],
         "description": "An ancient Greek epic poem about the Trojan War and the hero Achilles.",
         "cover_image": "https://fakeimg.pl/667x1000/cc6600"
-      }
+    }
 ]
