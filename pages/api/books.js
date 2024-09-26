@@ -1,6 +1,10 @@
 
 // pages/api/books.js
 
+export default handler;
+
+
+
 import fs from 'fs';
 import path from 'path';
 
