@@ -3,7 +3,7 @@ import { fetchBooks } from './lib/api';
 import BookCard from './components/BookCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AccordionExpandIcon from './components/Accordion';
-
+import Layout from './components/Layout'; // 导入布局组件
 
 
 
@@ -19,9 +19,8 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className="container">
-
-      < AccordionExpandIcon/>
+    <Layout> {/* 使用布局组件 */}
+      <AccordionExpandIcon />
 
       <h1 className="text-center">書籍列表</h1>
       <div className="row">
@@ -31,6 +30,6 @@ export default function HomePage() {
           </div>
         ))}
       </div>
-    </div>
+    </Layout>
   );
 }
