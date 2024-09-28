@@ -19,7 +19,7 @@ export default function HomePage() {
   }, []);
 
   return (
-    <Layout> {/* 使用布局组件 */}
+    <Layout> {/* 使用新的布局组件 */}
       <AccordionExpandIcon />
 
       <h1 className="text-center">書籍列表</h1>
